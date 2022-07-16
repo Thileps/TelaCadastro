@@ -1,0 +1,73 @@
+header {
+    height: 940px;
+    background-image: url("../assets/images/desktopHeaderBackground.jpg");
+    background-repeat: no-repeat;
+}
+
+.topHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.leftTopHeader {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+}
+
+.leftTopHeader>img {
+    width: 100%;
+}
+
+.rightTopHeader>ul {
+    list-style: disc;
+}
+
+.menuItemContainer {
+    display: inline-block;
+    color: #fff;
+    font-family: 'RobotoRegular';
+}
+
+.menuItemContainer:after {
+    content: " \2022";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menuItemContainer:last-child:after {
+    content: none;
+}
+
+.menuItem {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.bottomHeader {
+    padding-top: 160px;
+}
+
+.pageTitle {
+    color: #fff;
+    font-family: 'HelveticaUltraLight';
+}
+
+.pageTitle>h1 {
+    font-size: 105px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.pageTitle>h2 {
+    font-size: 45px;
+    font-weight: normal;
+}

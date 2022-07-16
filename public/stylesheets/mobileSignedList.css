@@ -1,0 +1,63 @@
+.mobileTableList {
+    width: 100%;
+    height: 200px;
+}
+
+.mobileTableButtons {
+    height: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    grid-auto-flow: column;
+}
+
+.mobileTableIndex {
+    border: 2px solid #808080;
+    color: #808080;
+    font-family: 'RobotoLight';
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobileTableIndex > p {
+    margin: 0;
+}
+
+.mobileTableContent {
+    height: 85%;
+    width: 100% - 4px;
+    border: 2px solid #29abe2;
+}
+
+.cardRow {
+    display: flex;
+    margin: 12px 2%;
+    border-bottom: 2px solid #29abe2;
+    padding-bottom: 2px;
+}
+
+.cardRow > p {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cardRowTitle {
+    margin-right: 3%;
+    font-family: 'RobotoRegular';
+    color: #012d51;
+    width: 55px;
+}
+
+.cardRowContent {
+    font-family: 'HelveticaCondensed';
+    color: #808080
+}
+
+.selectedMobileButton {
+    border: 2px solid #29abe2;
+    border-bottom: 0;
+}

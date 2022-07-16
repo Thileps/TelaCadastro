@@ -1,0 +1,66 @@
+@media only screen and (max-device-width: 420px) {
+    button {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-device-width: 421px) and (max-device-width: 1280px) {
+    .form {
+        padding: 0 15%;
+    }
+
+    button {
+        width: 40% !important;
+    }
+}
+
+.signUp {
+    height: 748px;
+    background-color: #29abe2;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp>h2,
+button {
+    align-self: center;
+    font-family: 'HelveticaUltraLight';
+}
+
+.signUp>h2 {
+    margin-top: 85px;
+    margin-bottom: 70px;
+    font-family: 'HelveticaUltraLight';
+    font-size: 44px;
+    color: #fff;
+}
+
+button {
+    width: 50%;
+    height: 80px;
+    font-size: 44px;
+    background-color: #012d51;
+    color: #29abe2;
+    margin-top: 90px;
+    border: none;
+}
+
+label {
+    color: #fff;
+    font-family: 'RobotoRegular';
+}
+
+input {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}

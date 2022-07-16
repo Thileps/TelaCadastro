@@ -1,0 +1,28 @@
+<table>
+    <tr>
+        <th class="emptyTh"></th>
+        <th>NOME</th>
+        <th>E-MAIL</th>
+        <th>NASCIMENTO</th>
+        <th>TELEFONE</th>
+    </tr>
+    <% users.forEach((user, i)=> { %>
+        <tr>
+            <td class="tableNumber">
+                <%=i+1 %>
+            </td>
+            <td>
+                <%=user.userName %>
+            </td>
+            <td>
+                <%=user.userEmail %>
+            </td>
+            <td>
+                <%=user.userBirthDate %>
+            </td>
+            <td>
+                <%=user.userTelephone %>
+            </td>
+        </tr>
+        <% }) %>
+</table>

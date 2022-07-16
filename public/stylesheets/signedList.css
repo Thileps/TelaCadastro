@@ -1,0 +1,101 @@
+@media only screen and (max-device-width: 420px) {
+    .tableContainer {
+        padding-top: 25px;
+    }
+
+    .tableContainer > h2 {
+        margin-bottom: 20px;
+    }
+
+    .signedList {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-device-width: 421px) {
+    .tableContainer {
+        padding-top: 65px;
+    }
+
+    .tableContainer > h2 {
+        margin-bottom: 95px;
+    }
+
+    .signedList {
+        height: 610px;
+    }
+}
+
+.signedList {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.tableContainer {
+    width: 100%;
+}
+
+.tableContainer>h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+    font-family: 'HelveticaUltraLight';
+    color: #29abe2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #29abe2;
+    border-left: none;
+    border-right: none;
+}
+
+tr {
+    height: 60px;
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.tableNumber,
+.emptyTh {
+    width: 12%;
+}
+
+th {
+    font-family: 'RobotoRegular';
+    color: #012d51;
+    width: 22%;
+    border-right: 1px solid #29abe2;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td {
+    font-family: 'HelveticaCondensed';
+    color: #808080;
+    width: 22%;
+    border-right: 1px solid #29abe2;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.tableNumber {
+    font-family: 'RobotoLight';
+    color: #012d51;
+    text-align: center;
+}

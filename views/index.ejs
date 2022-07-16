@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prova IN8</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/header.css' />
+  <link rel='stylesheet' href='/stylesheets/mobileHeader.css' />
+  <link rel='stylesheet' href='/stylesheets/signUp.css' />
+  <link rel='stylesheet' href='/stylesheets/signedList.css' />
+  <link rel='stylesheet' href='/stylesheets/mobileSignedList.css' />
+  <link rel='stylesheet' href='/stylesheets/footer.css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <a href="#headerDiv" class="buttonTopPage"><img src="../assets/icons/topo-pag.svg" alt="Icone Topo Página"></a>
+  <div id="menuBackdrop">
+
+  </div>
+  <header id="headerDiv">
+    <div class="topHeader">
+      <div class="leftTopHeader">
+        <img src="../assets/icons/logoIn8Dev.svg" alt="Logo IN8">
+      </div>
+      <div class="rightTopHeader">
+        <ul>
+          <li class="menuItemContainer"><a href="#signUpDiv" class="menuItem">cadastro</a></li>
+          <li class="menuItemContainer"><a href="#signedListDiv" class="menuItem">lista</a></li>
+          <li class="menuItemContainer"><a href="#aboutMeDiv" class="menuItem">sobre mim</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottomHeader">
+      <div class="pageTitle">
+        <h1>ESTÁGIO</h1>
+        <h2>PROVA DE SELEÇÃO</h2>
+      </div>
+    </div>
+  </header>
+  <header class="mobileHeader">
+    <div class="mobileHeaderContainer">
+      <div class="mobileTopHeader">
+        <div class="mobileLeftTopHeader">
+          <img src="../assets/icons/hamburguer.svg" alt="Botão menu" id="menuHamburguer">
+          <div class="mobileMenu" id="mobileMenuDiv">
+            <ul>
+              <li class="mobileMenuItemContainer"><a href="#signUpDiv" class="mobileMenuItem">cadastro</a></li>
+              <li class="mobileMenuItemContainer"><a href="#signedListDiv" class="mobileMenuItem">lista</a></li>
+              <li class="mobileMenuItemContainer"><a href="#mobileAboutMeDiv" class="mobileMenuItem">sobre mim</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobileRightTopHeader">
+          <img src="../assets/icons/logoIn8Dev.svg" alt="Logo IN8">
+        </div>
+      </div>
+      <div class="mobileBottomHeader">
+        <div class="mobilePageTitle">
+          <h1>ESTÁGIO</h1>
+          <h2>PROVA DE SELEÇÃO</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="signUp" id="signUpDiv">
+    <h2>CADASTRO</h2>
+    <div class="form">
+      <label for="nameInput">Nome</label>
+      <input type="text" id="nameInput" name="nameInput" />
+      <label for="emailInput">E-mail</label>
+      <input type="email" id="emailInput" name="emailInput" />
+      <label for="birthDateInput">Nascimento</label>
+      <input type="date" id="birthDateInput" name="birthDateInput" />
+      <label for="telephoneInput">Telefone</label>
+      <input type="tel" id="telephoneInput" name="telephoneInput" />
+    </div>
+    <button id="signUpButton">CADASTRAR</button>
+  </div>
+  <div class="signedList" id="signedListDiv">
+    <div class="tableContainer">
+      <h2>LISTA DE CADASTRO</h2>
+      <div class="tableList" id="tableListContainer">
+      </div>
+      <div class="mobileTableList">
+        <div class="mobileTableButtons">
+          <div class="mobileTableIndex selectedMobileButton">
+            <p class="mobileIndexNumber">1</p>
+          </div>
+          <div class="mobileTableIndex">
+            <p class="mobileIndexNumber">2</p>
+          </div>
+          <div class="mobileTableIndex">
+            <p class="mobileIndexNumber">3</p>
+          </div>
+          <div class="mobileTableIndex">
+            <p class="mobileIndexNumber">4</p>
+          </div>
+        </div>
+        <div class="mobileTableContent" id="mobileTableContentDiv">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="aboutMe" id="aboutMeDiv">
+      <p>Thiago Lepesqueur Fabiano de Asevedo</p>
+      <p>thiagolfasevedo@gmail.com</p>
+      <p>(31) 9 9985-8784</p>
+      <p>CEFET-MG</p>
+    </div>
+  </footer>
+  <footer class="mobileFooter">
+    <div class="mobileFooterContainer">
+      <div class="aboutMe" id="mobileAboutMeDiv">
+        <p>Thiago Lepesqueur Fabiano de Asevedo</p>
+        <p>thiagolfasevedo@gmail.com</p>
+        <p>(31) 9 9985-8784</p>
+        <p>CEFET-MG</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../javascripts/script.js"></script>
+</body>
+
+</html>
