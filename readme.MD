@@ -11,3 +11,6 @@ Projeto referente a prova de estágio em desenvolvimento web da empresa IN8.
 # Requisitos
 - NodeJS v16.16.0
 - Npm v8.11.0
+
+# Observação
+O botão Cadastrar é funcional
